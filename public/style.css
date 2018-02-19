@@ -1,0 +1,10 @@
+body {
+  line-height: 1.6em;
+  font-size: 16px;
+  color: #222;
+  background-color: #fff;
+  background-image: url("brick-and-mortar.jpg");
+  background-size: cover;
+  font-family: system-ui;
+  text-decoration-skip-ink: auto;
+}
