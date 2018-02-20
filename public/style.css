@@ -5,6 +5,7 @@ body {
   background-color: #fff;
   background-image: url("brick-and-mortar.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: system-ui;
   text-decoration-skip-ink: auto;
 }
