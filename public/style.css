@@ -1,30 +1,20 @@
 body {
-  line-height: 1.6em;
-  font-size: 16px;
-  color: #222;
-  background-color: #fff;
-  background-image: url("brick-and-mortar.jpg");
+  font-size: 32pt;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+p {
+  background: url(brick-and-mortar.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  font-family: system-ui;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a {
-  color: black;
-}
-
-.message {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: black;
   font-weight: bold;
-  display: inline-block;
-  padding: 5px;
-  border-radius: 5px;
 }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-  height: 128px;
+img {
+  border-radius: 5px;
 }
